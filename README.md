@@ -1,24 +1,32 @@
-# tasklist
+# Список задач на Vue.js
 
-## Project setup
-```
-npm install
-```
+## [Перейти в приложение "Task list"](https://tasklistfil.web.app/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Данный проект - учебный проект для создания приложения "Список задач". Основной функционал проекта включает следующие возможности:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. Добавление задачи
+2. Удаление задачи
+3. Выполнение задачи
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Данный проект был создан с использованием следующих технологий:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Vue.js 3 (Composition API)
+2. Vue CLI
+3. TypeScript
+4. Tailwind(CSS)
+5. Bulma(CSS)
+6. Firebase 9
+7. ESLint и Prettier
+
+### Установка и запуск
+
+#### Для установки и запуска проекта необходимо выполнить следующие действия:
+
+1. Скачать проект из репозитория.
+2. Установить необходимые зависимости, используя команду npm install.
+3. Запустить сервер, используя команду npm run serve.
+4. Открыть сайт в браузере по адресу <http://localhost:3000>.
+
+### Контакты
+
+#### <Filipp-p@mail.ru>
