@@ -82,9 +82,9 @@ const todos = ref<Todo[]>([]);
 
 onMounted((): void => {
   onSnapshot(collection(db, "todos"), (querySnapshot) => {
-    const fbTodos: { id: string; text: string; done: boolean }[] = [];
+    const fbTodos: Todo[] = [];
     querySnapshot.forEach((doc) => {
-      const todo = {
+      const todo: Todo = {
         id: doc.id,
         text: doc.data().text,
         done: doc.data().done,
@@ -95,7 +95,7 @@ onMounted((): void => {
   });
 });
 
-const newTodoText = ref("");
+const newTodoText = ref<string>("");
 
 const addTodo = (): void => {
   addDoc(collection(db, "todos"), {
